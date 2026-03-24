@@ -1,0 +1,19 @@
+@keyframes obracanko {
+    0% {transform: scale(1.0, 1.0);}
+    25% {transform: scale(0.0, 1.0);}
+    50% {transform: scale(-1.0, 1.0);}
+    75% {transform: scale(0.0, 1.0);}
+    100% {transform: scale(1.0, 1.0);}
+}
+
+#obr {
+    position: absolute;
+    width: 70vw;
+    height: 53vh;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    top: 20%;
+    animation: obracanko 4s linear infinite;
+    box-shadow: 0px 10px 7px -2px rgba(0, 0, 0, 0.25);
+}
