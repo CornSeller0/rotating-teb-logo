@@ -14,6 +14,6 @@
     right: 0;
     margin-inline: auto;
     top: 20%;
-    animation: obracanko 4s linear infinite;
+    animation: obracanko 4s ease-in-out alternate infinite;
     box-shadow: 0px 10px 7px -2px rgba(0, 0, 0, 0.25);
 }
